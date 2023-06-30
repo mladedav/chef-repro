@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cargo-chef = { path = "../cargo-chef", version = "1.0" }
-cargo-chef-legacy = { package = "cargo-chef", version = "0.1.61" }
+log = { path = "../log", version = "1.0" }
+log-legacy = { package = "log", version = "0.4.19" }

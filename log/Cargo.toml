@@ -1,5 +1,5 @@
 [package]
-name = "cargo-chef"
+name = "log"
 edition = "2018"
 version = "1.0.0"
 

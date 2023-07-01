@@ -1,11 +1,9 @@
 [package]
-name = "binary"
+name = "binary-2"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-log = { path = "../log", version = "1.0" }
-log-legacy = { package = "log", version = "0.4.19" }
-cfg-if = "1.0.0"
+cfg-if = { path = "../cfg-if", version = "1.0.0" }
